@@ -2,8 +2,9 @@ import 'dotenv/config';
 
 export default {
   expo: {
-    name: 'rn_tekstitv',
-    slug: 'rn_tekstitv',
+    name: 'TekstiTV',
+    icon: './assets/icon.png',
+    slug: 'TekstiTV',
     version: '1.0.0',
     orientation: 'default',
     splash: {
@@ -20,6 +21,8 @@ export default {
       adaptiveIcon: {
         backgroundColor: '#000000',
       },
+      package: 'com.p3tapio.tekstitv',
+      versionCode: 1,
     },
     extra: {
       yleApiKey: process.env.YLE_API_KEY,
